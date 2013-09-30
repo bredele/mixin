@@ -11,9 +11,11 @@ module.exports = mixin;
  * @api public
  */
 
-function mixin(parent, child) {
-  for (var key in parent) {
-    child[key] = parent[key];
+function mixin(to, from) {
+  for (var key in from) {
+    if (from.hasOwnProperty(key)) {
+      child[key] = from[key];
+    }
   }
 
   return obj;
