@@ -14,10 +14,10 @@ module.exports = mixin;
 function mixin(to, from) {
   for (var key in from) {
     if (from.hasOwnProperty(key)) {
-      child[key] = from[key];
+      to[key] = from[key];
     }
   }
 
-  return obj;
+  return to;
 }
 
