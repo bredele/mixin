@@ -1,11 +1,10 @@
-
 # mixin
 
   Mixin two objects
 
 ## Installation
 
-    $ component install leafs/mixin
+    $ component install bredele/mixin
 
 ## API
 
